@@ -16,6 +16,6 @@ public class Mosca extends Actor
     {
         // Add your action code here.
         move(1);
-        turn(-1);
+        
     }
 }

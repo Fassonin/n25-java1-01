@@ -1,10 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class MyWorld here.
+ * Definição da Classe BeeWorld
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Gustavo Fassoni 
+ * @version 2025-06-04
  */
 public class MyWorld extends World
 {
