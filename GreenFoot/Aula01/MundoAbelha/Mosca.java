@@ -8,6 +8,19 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Mosca extends Inseto
 {
+    //Fields
+    private int velocidade;
+    private int rotacao;
+    //Contructor padrão
+    public Mosca(){
+        velocidade = 1;
+        rotacao = 0;
+    }
+    //Contructor com parametros
+    public Mosca(int vel,int rot){
+       velocidade = vel;
+       rotacao = rot;
+    }
     /**
      * Act - Método responsável pelas ações da mosca quando
      * os botões Act ou Run são pressionados.
@@ -19,7 +32,7 @@ public class Mosca extends Inseto
             turn(45-Greenfoot.getRandomNumber(90));
             
         }
-        move(1);
+        move(velocidade);
         verificarCanto();
     }
 }

@@ -21,5 +21,6 @@ public class Aranha extends Inseto
         }
         verificarCanto();
         move(1);
+        turn(10-Greenfoot.getRandomNumber(20));
     }
 }
